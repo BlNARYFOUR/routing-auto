@@ -10,7 +10,7 @@
         }
     ],
     "require": {
-        "php": "^7.2",
+        "php": "^7.2 || ^8.0",
         "symfony-cmf/slugifier-api": "^1.0 || ^2.0",
         "symfony-cmf/routing": "^1.2 || ^2.0",
         "symfony/options-resolver": "^2.8 || ^3.3 || ^4.0",
@@ -18,11 +18,11 @@
         "jms/metadata": "^2.1"
     },
     "require-dev": {
+        "phpcompatibility/php-compatibility": "^9.3",
         "symfony/yaml": "^2.8 || ^3.3 || ^4.0",
         "symfony/dependency-injection": "^2.8 || ^3.3 || ^4.0",
         "symfony/event-dispatcher": "^2.8 || ^3.3 || ^4.0",
-        "symfony/phpunit-bridge": "^3.3 || ^4.0",
-        "symfony-cmf/testing": "^2.1.8"
+        "symfony/phpunit-bridge": "^3.3 || ^4.0"
     },
     "suggest": {
         "symfony/yaml": "To be able to load Yaml configuration files (^2.8 || ^3.3 || ^4.0)",
